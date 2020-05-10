@@ -47,7 +47,7 @@ let yeni1 = document.querySelector("#div");
 var ad;
 var soyad;
 var yorum;
-let resimler = ["images/kul1.png","images/kul2.png","images/kul3.png","images/kul4.png","images/kul6.png","images/kul7.jpg","images/kul8.png","images/kul9.png","images/kul10.png"]
+let resimler = ["../images/kul1.png","../images/kul2.png","../images/kul3.png","../images/kul4.png","../images/kul6.png","../images/kul7.jpg","../images/kul8.png","../images/kul9.png","../images/kul10.png"]
 var rastgele;
 var resim;
 
