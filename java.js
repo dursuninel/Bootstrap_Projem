@@ -1,34 +1,16 @@
+
+ let kalan_urun = document.querySelector("#kalan_urun").textContent; //  Ürünün kaç adet kaldığını alıyorum.
+ //console.log(kalan_urun);
+
 function arttir() {
     var deger = parseInt(document.getElementById('sayi').value);
-    if (deger<5)
+    if (deger<kalan_urun) // Sayının kalan ürün sayısı kadar artabileceğini ayarlıyorum.
    document.getElementById('sayi').value = deger + 1;
 }
 
 function azalt() {
    var deger = parseInt(document.getElementById('sayi').value);
-   if (deger!=1)
-   document.getElementById('sayi').value = deger - 1;
-}
-function arttir1() {
-    var deger = parseInt(document.getElementById('sayi').value);
-    if (deger<3)
-   document.getElementById('sayi').value = deger + 1;
-}
-
-function azalt1() {
-   var deger = parseInt(document.getElementById('sayi').value);
-   if (deger!=1)
-   document.getElementById('sayi').value = deger - 1;
-}
-function arttir2() {
-    var deger = parseInt(document.getElementById('sayi').value);
-    if (deger<11)
-   document.getElementById('sayi').value = deger + 1;
-}
-
-function azalt2() {
-   var deger = parseInt(document.getElementById('sayi').value);
-   if (deger!=1)
+   if (deger!=1) // alınacak ürün miktarının 1 den az olmamasını sağlıyorum.
    document.getElementById('sayi').value = deger - 1;
 }
 
@@ -69,14 +51,6 @@ let resimler = ["images/kul1.png","images/kul2.png","images/kul3.png","images/ku
 var rastgele;
 var resim;
 
-{/* <div class="media">
-  <img src="images/kul1.png" width="64" height="64" class="mr-3" alt="...">
-  <div class="media-body">
-    <h5 class="mt-0">Dursun İnel</h5>
-    Kargo elime sağlam ulaştı ama belirtilen teslim süresini aştı. Onun dışında iyi.	
-  </div>
-</div> */}
-console.log(yeni);
 gonder.onclick=function()
 {
     

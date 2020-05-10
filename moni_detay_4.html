@@ -84,9 +84,9 @@
         <hr>
         <font size="3px;" color="555555">Bu ürünün satıcısı : </font><a href="#">GamersMonitor</a> (28) <span style="border-style: solid; border-width: 1px; border-color: #0009ef; color: #0009ef; " class="px-1 ml-1"> % 90</span>
         <hr>
-        <button type="button" onclick="azalt2()" class="btn btn-outline-info">-</button>
+        <button type="button" onclick="azalt()" class="btn btn-outline-info">-</button>
         <input class="text-center" type="text" size="5" value="1" id="sayi" name="sayi">
-        <button type="button" onclick="arttir2()" class="btn btn-outline-info">+</button>  <font size="2" color="#505050">Stokta 11 adet kaldı | 16 adet satıldı</font>
+        <button type="button" onclick="arttir()" class="btn btn-outline-info">+</button>  <font size="2" color="#505050">Stokta <span id="kalan_urun">11</span> adet kaldı | 16 adet satıldı</font>
         <center>
         <button type="button" class="btn btn-primary mt-3 ml-2 " style="height: 50px; padding-left: 50px; padding-right: 50px;  "data-toggle="modal" data-target="#uyarı">Hemen Al</button>
         <button type="button" class="btn btn-success mt-3 ml-2 " style="height: 50px; padding-left: 46px; padding-right: 46px;  "data-toggle="modal" data-target="#uyarı">Sepete Ekle</button>
@@ -133,9 +133,9 @@
                                  <a href="moni_detay_1.html" style="z-index: 0;"><img src="images/monitor1.jpg" class="card-img-top aw-zoom"></a>
                                  <div class="card-body">
                                    
-                                        <h6 class="card-text">Samsung LC32HG70 31.5 1ms 144Hz (DP+HDMI) 2K QHD QLED Gaming <br> Monitör.</h6>
-                                        <small><del><font color="#b2b2b2">5.299TL</font></del> |<font color="#5ba71b"> %31 indirim</font> </small>
-                                        <h5>3.699TL</h5>
+                                  <h6 class="card-text">LG 27UK650-W 27 inch 60Hz 5ms (HDMI+Display) FreeSync 4K IPS Monitör.</h6>
+                                  <small><del><font color="#b2b2b2">5.000TL</font></del> |<font color="#5ba71b"> %12 indirim</font> </small>
+                                  <h5>4.400TL</h5>
                                         
                                         
                                  </div>
@@ -145,9 +145,9 @@
 			<div class="card" style="border:none;">
                                  <a href="moni_detay_2.html" style="z-index: 0;"><img src="images/monitor2.jpg" class="card-img-top aw-zoom"></a>
                             <div class="card-body">
-                                <h6 class="card-text">LG UltraWide 38WK95C-W 37.5inch 5ms Curved IPS Gaming <br> Monitör</h6>
-                                    <small><del><font color="#b2b2b2">9.999TL</font></del> |<font color="#5ba71b"> %11 indirim</font> </small>
-                                        <h5>3.999TL</h5>
+                              <h6 class="card-text">Samsung LC32HG70 31.5 1ms 144Hz (DP+HDMI) 2K QHD QLED Gaming <br> Monitör.</h6>
+                              <small><del><font color="#b2b2b2">5.299TL</font></del> |<font color="#5ba71b"> %31 indirim</font> </small>
+                              <h5>3.699TL</h5>
                                                                         
                             </div>
                                </div>
@@ -157,9 +157,9 @@
                                 <a href="moni_detay_3.html" style="z-index: 0;"><img src="images/monitor3.jpg" class="card-img-top aw-zoom"></a>
                                  <div class="card-body">
                                    
-                                        <h6 class="card-text">LG 24GL650-B 23.6 inch 144Hz 1ms Full HD Freesync TN Gaming <br> Monitör</h6>
-                                        <small><del><font color="#b2b2b2">2.019TL</font></del> |<font color="#5ba71b"> %29 indirim</font> </small>
-                                        <h5>1.449TL</h5>
+                                  <h6 class="card-text">LG UltraWide 38WK95C-W 37.5inch 5ms Curved IPS Gaming <br> Monitör</h6>
+                                  <small><del><font color="#b2b2b2">5.599TL</font></del> |<font color="#5ba71b"> %11 indirim</font> </small>
+                                      <h5>4.423TL</h5>
                                        
                                         
                                  </div>
@@ -167,7 +167,7 @@
 		</div>
 		<div class="col-md-3">
 			<div class="card" style="border:none;">
-                                 <a href="" style="z-index: 0;"><img src="images/monitor5.jpg" class="card-img-top aw-zoom"></a>
+                                 <a href="moni_detay_5.html" style="z-index: 0;"><img src="images/monitor5.jpg" class="card-img-top aw-zoom"></a>
                                  <div class="card-body">
                                    
                                         <h6 class="card-text">PHILIPS 243V7QDSB/01 23.8 5MS VGA+DVI+HDMI FULL HD IPS LED <br> MONİTÖR</h6>
@@ -186,7 +186,7 @@
 	<div class="row">
 		<div class="col-md-3">
 			<div class="card" style="border:none;">
-        <a href="" style="z-index: 0;"><img src="images/monitor6.jpg" class="card-img-top aw-zoom"></a>
+        <a href="moni_detay_6.html" style="z-index: 0;"><img src="images/monitor6.jpg" class="card-img-top aw-zoom"></a>
                                  <div class="card-body">
                                    
                                         <h6 class="card-text">MSI Optix MAG272C 27" 165Hz 1ms (HDMI+Display) FreeSync Full HD <br> Monitör</h6>
@@ -199,7 +199,7 @@
 		</div>
 		<div class="col-md-3">
 			<div class="card" style="border:none;">
-        <a href="" style="z-index: 0;"><img src="images/monitor7.jpg" class="card-img-top aw-zoom"></a>
+        <a href="moni_detay_7.html" style="z-index: 0;"><img src="images/monitor7.jpg" class="card-img-top aw-zoom"></a>
                                  <div class="card-body">
                                    
                                         <h6 class="card-text">Samsung LS27E332HZX 27 İnç FHD <br> Gaming 1ms 2K Full HD <br> Monitör <br></h6>
@@ -212,7 +212,7 @@
 		</div>
 		<div class="col-md-3">
 			<div class="card" style="border:none;">
-        <a href="" style="z-index: 0;"><img src="images/monitor8.jpg" class="card-img-top aw-zoom"></a>
+        <a href="moni_detay_8.html" style="z-index: 0;"><img src="images/monitor8.jpg" class="card-img-top aw-zoom"></a>
                                  <div class="card-body">
                                    
                                         <h6 class="card-text">BenQ GL2460BH 24 inc 1ms 75Hz Eye-Care Full <br> HD TN Oyuncu <br> Monitör</h6>
@@ -225,7 +225,7 @@
 		</div>
 		<div class="col-md-3">
 			<div class="card" style="border:none;">
-        <a href="" style="z-index: 0;"><img src="images/monitor10.jpg" class="card-img-top aw-zoom"></a>
+        <a href="moni_detay_10.html" style="z-index: 0;"><img src="images/monitor10.jpg" class="card-img-top aw-zoom"></a>
                                  <div class="card-body">
                                    
                                         <h6 class="card-text">Samsung LU28E590DS/UF 28" 1 ms 60 Hz (2xHDMI+Display) <br> Monitör</h6>
