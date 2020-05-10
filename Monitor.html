@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="fontawesome/css/all.css" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Bilgisayar/Monitör</title>
+</head>
+<body>
+
+<nav class="text-white navbar navbar-dark navbar-expand-lg bg-dark">
+<div class="container py-1">
+	<img class="navbar-brand" src="images/logo2.png" width="55">
+
+	<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+
+	<div class="collapse navbar-collapse" id="navbar-menu"> 
+		
+<ul class="navbar-nav ml-auto">
+	<li class="nav-item px-1">
+		<a href="index.html" class="nav-link text-white">Anasayfa</a>
+	</li>
+	<li class="nav-item px-1">
+		<div class="dropdown">
+			<a href="#" class="nav-link text-white dropdown-toggle" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kategori</a>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenu">
+    <a class="dropdown-item" href="Monitor.html">Bilgisayar</a>
+    <a class="dropdown-item" href="#">Beyaz Eşya</a>
+    <a class="dropdown-item" href="#">Fitness</a>
+  </div>
+		</div>
+	</li>
+	<li class="nav-item px-1">
+		<a href="hakkımda.html" class="nav-link text-white">Hakkımızda</a>
+	</li>
+	<li class="nav-item pl-1">
+		<a href="#" class="nav-link text-white">İletişim</a>
+	</li>
+</ul>
+<div class="input-group"> 
+<ul class="navbar-nav" style="margin-left: 150px;">
+			<li>
+				<input type="text" class="form-control" size="60" placeholder="Ne Aramıştınız ?" name="">					
+			</li>
+			<li>
+				<button class="btn btn-outline-secondary ml-4" type="button">Ara</button>
+			</li>
+		</ul>
+</div>
+
+	</div>
+</div>
+</nav>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4 col-sm-4 col-lg-3 col-xl-3 mt-2">
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link cizgi ahover" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+           <img src="images/parca.png" width="30"> Ürünler
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" >
+      <div class="card-body">
+        <ul >
+        	<li><label style="color: #dddddd;"> Monitör </label></li>
+        	<li><label><a href="kasa.html" class="cizgi ahover"> Kasa </a></label></li>
+        	<li><label><a href="klavye.html" class="cizgi ahover"> Klavye </a></label></li>
+        	<li><label><a href="Mouse.html" class="cizgi ahover"> Mouse </a></label></li>
+        	<li><label><a href="islemci.html" class="cizgi ahover"> İşlemci </a></label></li>
+        	<li><label><a href="anakart.html" class="cizgi ahover"> Anakart </a></label></li>
+        	<li><label><a href="" class="cizgi ahover"> RAM </a></label></li>
+        	<li><label><a href="" class="cizgi ahover"> Ekran Kartı </a></label></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed cizgi ahover" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <img src="images/fiyat.png" width="25"> Fiyat
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" >
+      <div class="card-body" s>
+      	<ul style="list-style-type: none;" class="pl-1">
+      		<li><input type="text" size="3" name="" placeholder="En Düşük"> - <input type="text" size="3" name="" placeholder="En Yüksek"> <button class="bg-primary" style="color: white;"> > </button></li>
+      	</ul>
+        <ul style="list-style-type: none;" class="pl-1">
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">100-250</label>
+                 </div>
+        	</li>
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                    <label class="custom-control-label" for="customCheck2">250-500</label>
+                 </div>
+        	</li>
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                    <label class="custom-control-label" for="customCheck3">500-1000</label>
+                 </div>
+        	</li>
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                    <label class="custom-control-label" for="customCheck4">1000-2000</label>
+                 </div>
+        	</li>
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck5">
+                    <label class="custom-control-label" for="customCheck5">2000-4000</label>
+                 </div>
+        	</li>
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck6">
+                    <label class="custom-control-label" for="customCheck6">4000-6000</label>
+                 </div>
+        	</li>
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck7">
+                    <label class="custom-control-label" for="customCheck7">6000 +</label>
+                 </div>
+        	</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed cizgi ahover" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <img src="images/brand.png" width="30"> Marka
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" >
+      <div class="card-body">
+      <ul style="list-style-type: none;" class="pl-3">
+        <li><div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck8">
+              <label class="custom-control-label" for="customCheck8">Samsung</label>
+            </div>
+        </li>
+        <li><div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck9">
+              <label class="custom-control-label" for="customCheck9">Acer</label>
+            </div>
+        </li>
+        <li>
+          <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck10">
+              <label class="custom-control-label" for="customCheck10">MSI</label>
+            </div>
+        </li>
+        <li>
+          <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck11">
+              <label class="custom-control-label" for="customCheck11">Phılıps</label>
+            </div>
+        </li>
+        <li>
+          <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck12">
+              <label class="custom-control-label" for="customCheck12">BenQ</label>
+            </div>
+        </li>
+        <li>
+          <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck13">
+              <label class="custom-control-label" for="customCheck13">LG</label>
+            </div>
+        </li>
+        <li>
+          <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck20">
+              <label class="custom-control-label" for="customCheck20">AOC</label>
+            </div>
+        </li>
+      </ul>  	
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed cizgi ahover" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          <img src="images/teslim.png" width="30"> Teslim
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" >
+      <div class="card-body">
+      <ul style="list-style-type: none;" class="pl-3">
+      	<li>
+      		<div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck14">
+              <label class="custom-control-label" for="customCheck14">Yurt İçi</label>
+            </div>
+      	</li>
+      	<li>
+      		<div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck15">
+              <label class="custom-control-label" for="customCheck15">Yurt Dışı</label>
+            </div>
+      	</li>
+      </ul>  	
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFive">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed cizgi ahover" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          <img src="images/garanti.png" width="25"> Garanti Süresi
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFive" class="collapse show" aria-labelledby="headingFive" >
+      <div class="card-body">
+      <ul style="list-style-type: none;" class="pl-3">
+      	<li>
+      		<div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck16">
+              <label class="custom-control-label" for="customCheck16">2 Yıl</label>
+            </div>
+      	</li>
+      	<li>
+      		<div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck17">
+              <label class="custom-control-label" for="customCheck17">4 Yıl</label>
+            </div>
+      	</li>
+      </ul>  	
+      </div>
+    </div>
+  </div>
+</div>
+
+		<div class="col-md-8 col-sm-8 col-lg-9 col-xl-9">
+			<div class="row">
+        <div class="col-xl-8 col-lg-8 pt-2">
+          <p class="lead text-center" style="font-size: 26px;">"Monitör" aramasında 12 sonuç bulundu</p>
+        </div>
+        <div class="col-xl-4 col-lg-4 pt-3 " style="padding-left: 28px;">
+          <center>
+<select class="custom-select col-md-6 col-sm-6 col-lg-11 col-xl-11">
+  <option value="0">Önerilen sıralama</option>
+  <option value="1">En düşük fiyat</option>
+  <option value="2">En yüksek fiyat</option>
+  <option value="3">En yeniler</option>
+  <option value="4">En çok satanlar</option>
+  <option value="5">En çok beğenilenler</option>
+  <option value="6">En çok değerlendirilenler</option>
+</select>
+</center>
+        </div>
+			</div>
+            <div class="row">
+			    <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-2">
+			        <div class="card"> 
+                                 <img src="images/monitor1.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">LG 27UK650-W 27 inch 60Hz 5ms (HDMI+Display) FreeSync 4K IPS Monitör.</h6>
+                                        <small><del><font color="#b2b2b2">5.000TL</font></del> |<font color="#5ba71b"> %12 indirim</font> </small>
+                                        <h5>4.400TL</h5>
+                                        <center>
+                                        	<a href="moni_detay_1.html" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-2">
+			        <div class="card">
+                                 <img src="images/monitor2.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">Samsung LC32HG70 31.5 1ms 144Hz (DP+HDMI) 2K QHD QLED Gaming Monitör.</h6>
+                                        <small><del><font color="#b2b2b2">5.299TL</font></del> |<font color="#5ba71b"> %31 indirim</font> </small>
+                                        <h5>3.699TL</h5>
+                                        <center>
+                                        	<a href="moni_detay_2.html" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-2">
+			        <div class="card">
+                        <img src="images/monitor3.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-text">LG UltraWide 38WK95C-W 37.5inch 5ms Curved IPS Gaming Monitör</h6>
+                                    <small><del><font color="#b2b2b2">5.599TL</font></del> |<font color="#5ba71b"> %11 indirim</font> </small>
+                                        <h5>4.423TL</h5>
+                                            <center>
+                                            	<a href="moni_detay_3.html" class="btn btn-primary">Detaylara Git</a>
+                                            </center>                                
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-2">
+			        <div class="card">
+                                 <img src="images/monitor4.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">LG 24GL650-B 23.6 inch 144Hz 1ms Full HD Freesync TN Gaming <br> Monitör</h6>
+                                        <small><del><font color="#b2b2b2">2.019TL</font></del> |<font color="#5ba71b"> %29 indirim</font> </small>
+                                        <h5>1.449TL</h5>
+                                        <center>
+                                        	<a href="moni_detay_4.html" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+          
+            
+            	<div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/monitor5.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">PHILIPS 243V7QDSB/01 23.8 5MS VGA+DVI+HDMI FULL HD IPS LED MONİTÖR</h6>
+                                        <small><del><font color="#b2b2b2">2.199TL</font></del> |<font color="#5ba71b"> %34 indirim</font> </small>
+                                        <h5>1.452TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/monitor6.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">MSI Optix MAG272C 27" 165Hz 1ms (HDMI+Display) FreeSync Full HD Monitör</h6>
+                                        <small><del><font color="#b2b2b2">3.999TL</font></del> |<font color="#5ba71b"> %28 indirim</font> </small>
+                                        <h5>2.899L</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/monitor7.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">Samsung LS27E332HZX 27 İnç FHD <br> Gaming 1ms 2K Full HD <br> Monitör <br></h6>
+                                        <small><del><font color="#b2b2b2">1.599TL</font></del> |<font color="#5ba71b"> %32 indirim</font> </small>
+                                        <h5>1.099TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/monitor8.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">BenQ GL2460BH 24 inc 1ms 75Hz Eye-Care Full <br> HD TN <br> Oyuncu <br> Monitör</h6>
+                                        <small><del><font color="#b2b2b2">999TL</font></del> |<font color="#5ba71b"> %5 indirim</font> </small>
+                                        <h5>949TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+        
+            
+            	<div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/monitor9.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">LG 27GL850-B 27inch 144Hz 1ms (HDMI+Display) Freesync QHD IPS Monitör</h6>
+                                        <small><del><font color="#b2b2b2">7.500TL</font></del> |<font color="#5ba71b"> %50 indirim</font> </small>
+                                        <h5>3.750TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/monitor10.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">Samsung LU28E590DS/UF 28" 1 ms 60 Hz (2xHDMI+Display) Monitör</h6>
+                                        <small><del><font color="#b2b2b2">2.689TL</font></del> |<font color="#5ba71b"> %11 indirim</font> </small>
+                                        <h5>2.395TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/monitor11.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">AOC C27G1 LED 144Hz 1ms 2k Full HD <br>  Gaming <br> Monitör</h6>
+                                        <small><del><font color="#b2b2b2">2.305TL</font></del> |<font color="#5ba71b"> %14 indirim</font> </small>
+                                        <h5>2.000TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			     <div class="card">
+                                 <img src="images/monitor12.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">ACER 27 XB273KSbmiprzx UHD IPS 4MS (DP HDMI USB) MM Gaming Monitör</h6>
+                                        <small><del><font color="#b2b2b2">14.000TL</font></del> |<font color="#5ba71b"> %42 indirim</font> </small>
+                                        <h5>8.120TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+            
+        </div>
+        <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center mt-4" style="margin-bottom: -15px;">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+    </div>   
+</div>
+
+
+</div>
+<footer class="page-footer font-small blue bg-dark text-white mt-5">
+
+  <div class="footer-copyright text-center py-3">© 2020 Dursun İnel
+  </div>
+
+</footer>
+
+
+
+
+
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

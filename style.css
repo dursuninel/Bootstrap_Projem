@@ -1,0 +1,377 @@
+.bg-yellow{
+	background-color: #f7bb4a !important;
+}
+.boyut{			
+    height: 480px;
+}
+.cizgi{
+	text-decoration: none;
+	color: black;
+}
+.ahover:hover{
+color: #333333;
+}
+::placeholder {
+	font-size: 11px;
+	text-align: center;
+}
+.Disabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.stil
+{
+	font-family: Bahnschrift Light Condensed;
+}
+.brdr{
+	border:none;
+}
+@media only screen and (min-width: 1200px)
+{
+  .twt
+{
+  margin-top: 9px;;
+}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+  .twt
+  {
+    margin-top: 9px;;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+  .slider_kaldir
+  {
+    display: none;
+  }
+	.imguza
+	{
+		height: 370px;
+		width: 185px;
+	}
+	.flf
+	{
+		height: 500px;
+		width: 500px;
+  }
+  .twt
+{
+  margin-top: 9px;;
+  
+}
+}
+@media only screen and (min-width: 576px) and (max-width: 767px)
+{
+  .slider_kaldir
+  {
+    display: none;
+  }
+  .gezi_buton_kaldir
+  {
+    display: none;
+  }
+  .twt
+  {
+    margin-top: 9px;;
+  }
+}
+@media only screen and (max-width: 575px)
+{
+  .slider_kaldir
+  {
+    display: none;
+  }
+  .gezi_buton_kaldir
+  {
+    display: none;
+  }
+  .twt
+  {
+    margin-top: 9px;;
+  }
+}
+
+/* Slider resimleri için kullanıldılar */
+.aw-zoom
+{
+    position: relative;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+}
+.aw-zoom:hover
+{
+    z-index:2;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);  
+    -moz-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+
+/* Gezi Butonlarında Kullanıldılar */
+.asf
+{
+  border-color: #007bff;
+
+}
+.asd:hover
+{
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+.asf:focus, .asf.focus {
+  background-color: #0069d9;
+  border-color: #0062cc;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.divrenk{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #eee;
+    background-color: rgb(86,61,124,.15);
+    border: 1px solid #ddd;
+    border: 1px solid rgba(86,61,124,.2);
+}
+.divrenk1
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+}
+
+/*
+.hover1 img {
+   height: 500px;
+   width: 500px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+   transition: all 1s ease;
+}
+.hover1 img:hover {
+   width: 560px;
+   height: 545px;
+}
+
+/* @media only screen and (min-width: 1200px)
+{
+.buyuyenresim {
+-webkit-transform: scale(1, 1);
+-ms-transform: scale(1, 1);
+transform: scale(1, 1);
+transition-duration: 0.3s;
+-webkit-transition-duration: 0.3s; 
+}
+
+.buyuyenresim:hover {
+cursor: pointer;
+-webkit-transform: scale(1.2, 1.2);
+-ms-transform: scale(1.2, 1.2);
+transform: scale(1.2, 1.2);
+transition-duration: 0.3s;
+-webkit-transition-duration: 0.3s; 
+box-shadow: 10px 10px 5px #888888;
+z-index: 2;
+position:relative;
+}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+	.buyuyenresim {
+-webkit-transform: scale(1, 1);
+-ms-transform: scale(1, 1);
+transform: scale(1, 1);
+transition-duration: 0.3s;
+-webkit-transition-duration: 0.3s; 
+}
+
+.buyuyenresim:hover {
+cursor: pointer;
+-webkit-transform: scale(1.2, 1.2);
+-ms-transform: scale(1.2, 1.2);
+transform: scale(1.2, 1.2);
+transition-duration: 0.3s;
+-webkit-transition-duration: 0.3s; 
+box-shadow: 10px 10px 5px #888888;
+z-index: 2;
+position:relative;
+}
+} */
+
+/*
+@media only screen and (min-width: 1200px)
+{
+  .uza
+  {
+   margin-left: 390px; 
+  }
+  .uza1
+  {
+  	margin-left: 421px;
+  }
+  .uza2
+  {
+  	margin-left: 425px; 
+  }
+  .imguza
+  {
+  	height: 420px;
+  }
+  .yuzdehtml
+  {
+  	margin-left: 630px;
+  }
+  .yuzdecss
+  {
+  	margin-left: 565px;
+  }
+  .yuzdeboos
+  {
+  	margin-left: 770px;
+  }
+  .yuzdejava
+  {
+  	margin-left: 260px;
+  }
+  .yuzdec
+  {
+  	margin-left: 955px;
+  } 
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+	.uza
+	{
+		margin-left: 309px;
+	}
+	.uza1
+	{
+		margin-left: 340px;
+	}
+	.uza2
+    {
+  	    margin-left: 342px;
+    }
+	.imguza
+	{
+		height: 350px;
+	}
+	.yuzdehtml
+  {
+  	margin-left: 535px;
+  }
+  .yuzdecss
+  {
+  	margin-left: 450px;
+  }
+  .yuzdeboos
+  {
+  	margin-left: 630px;
+  }
+  .yuzdejava
+  {
+  	margin-left: 210px;
+  }
+  .yuzdec
+  {
+  	margin-left: 780px;
+  }
+} */
+/*
+@media only screen and (min-width: 576px) and (max-width: 767px)
+{
+    .uza
+	{
+		margin-left: 100px;
+	}
+	.uza1
+	{
+		margin-left: 134px;
+	}
+	.uza2
+    {
+  	    margin-left: 120px;
+    }
+	.imguza
+	{
+		margin-left: 23%;
+		padding-left: 5px;
+		height: 435px;
+		width: 285px;
+	}	
+	.yuzdehtml
+  {
+  	margin-left: 260px;
+  }
+  .yuzdecss
+  {
+  	margin-left: 215px;
+  }
+  .yuzdeboos
+  {
+  	margin-left: 310px;
+  }
+  .yuzdejava
+  {
+  	margin-left: 85px;
+  }
+  .yuzdec
+  {
+  	margin-left: 380px;
+  }
+}
+@media only screen and (max-width: 575px)
+{
+    .uza
+	{
+		margin-left: 10px;
+	}
+	.uza1
+	{
+		margin-left: 115px;
+	}
+	.uza2
+    {
+  	    margin-left: 105px;
+    }
+	.imguza
+	{
+		margin-left: 19%;
+		height: 435px;
+		width: 285px;
+	}	
+	.yuzdehtml
+  {
+  	margin-left: 230px;
+  }
+  .yuzdecss
+  {
+  	margin-left: 195px;
+  }
+  .yuzdeboos
+  {
+  	margin-left: 280px;
+  }
+  .yuzdejava
+  {
+  	margin-left: 75px;
+  }
+  .yuzdec
+  {
+  	margin-left: 340px;
+  }
+} */
+
+

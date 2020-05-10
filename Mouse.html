@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="fontawesome/css/all.css" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Bilgisayar/Mouse</title>
+</head>
+<body>
+
+<nav class="text-white navbar navbar-dark navbar-expand-lg bg-dark">
+<div class="container py-1">
+	<img class="navbar-brand" src="images/logo2.png" width="55">
+
+	<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+
+	<div class="collapse navbar-collapse" id="navbar-menu"> 
+		
+<ul class="navbar-nav ml-auto">
+	<li class="nav-item px-1">
+		<a href="index.html" class="nav-link text-white">Anasayfa</a>
+	</li>
+	<li class="nav-item px-1">
+		<div class="dropdown">
+			<a href="#" class="nav-link text-white dropdown-toggle" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kategori</a>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenu">
+    <a class="dropdown-item" href="Monitor.html">Bilgisayar</a>
+    <a class="dropdown-item" href="#">Beyaz Eşya</a>
+    <a class="dropdown-item" href="#">Fitness</a>
+  </div>
+		</div>
+	</li>
+	<li class="nav-item px-1">
+		<a href="hakkımda.html" class="nav-link text-white">Hakkımızda</a>
+	</li>
+	<li class="nav-item pl-1">
+		<a href="#" class="nav-link text-white">İletişim</a>
+	</li>
+</ul>
+<div class="input-group"> 
+<ul class="navbar-nav" style="margin-left: 150px;">
+			<li>
+				<input type="text" class="form-control" size="60" placeholder="Ne Aramıştınız ?" name="">					
+			</li>
+			<li>
+				<button class="btn btn-outline-secondary ml-3" type="button">Ara</button>
+			</li>
+		</ul>
+</div>
+
+	</div>
+</div>
+</nav>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4 col-sm-4 col-lg-3 col-xl-3 mt-2">
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link cizgi ahover" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+           <img src="images/parca.png" width="30"> Ürünler
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" >
+      <div class="card-body">
+        <ul >
+        	<li><label><a href="Monitor.html" class="cizgi ahover"> Monitör </label></li>
+        	<li><label><a href="kasa.html" class="cizgi ahover">Kasa </a></label></li>
+        	<li><label><a href="klavye.html" class="cizgi ahover"> Klavye </a></label></li>
+        	<li><label style="color: #dddddd;"> Mouse </label></li>
+        	<li><label><a href="islemci.html" class="cizgi ahover"> İşlemci </a></label></li>
+        	<li><label><a href="anakart.html" class="cizgi ahover"> Anakart </a></label></li>
+        	<li><label><a href="" class="cizgi ahover"> RAM </a></label></li>
+        	<li><label><a href="" class="cizgi ahover"> Ekran Kartı </a></label></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed cizgi ahover" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <img src="images/fiyat.png" width="25"> Fiyat
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" >
+      <div class="card-body" s>
+      	<ul style="list-style-type: none;" class="pl-1">
+      		<li><input type="text" size="3" name="" placeholder="En Düşük"> - <input type="text" size="3" name="" placeholder="En Yüksek"> <button class="bg-primary" style="color: white;"> > </button></li>
+      	</ul>
+        <ul style="list-style-type: none;" class="pl-1">
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">100-250</label>
+                 </div>
+        	</li>
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                    <label class="custom-control-label" for="customCheck2">250-500</label>
+                 </div>
+        	</li>
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                    <label class="custom-control-label" for="customCheck3">500-1000</label>
+                 </div>
+        	</li>
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                    <label class="custom-control-label" for="customCheck4">1000-2000</label>
+                 </div>
+        	</li>
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck5">
+                    <label class="custom-control-label" for="customCheck5">2000-4000</label>
+                 </div>
+        	</li>
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck6">
+                    <label class="custom-control-label" for="customCheck6">4000-6000</label>
+                 </div>
+        	</li>
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck7">
+                    <label class="custom-control-label" for="customCheck7">6000 +</label>
+                 </div>
+        	</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed cizgi ahover" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <img src="images/brand.png" width="30"> Marka
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" >
+      <div class="card-body">
+      <ul style="list-style-type: none;" class="pl-3">
+      	<li>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck8">
+              <label class="custom-control-label" for="customCheck8">Phılıps</label>
+            </div>
+        </li>
+      	<li>
+      		<div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck9">
+              <label class="custom-control-label" for="customCheck9">Bloody</label>
+            </div>
+      	</li>
+        <li><div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck10">
+              <label class="custom-control-label" for="customCheck10">Logıtech</label>
+            </div>
+        </li>
+        <li><div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck11">
+              <label class="custom-control-label" for="customCheck11">HP</label>
+            </div>
+        </li>
+        <li><div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck12">
+              <label class="custom-control-label" for="customCheck12">Rampage</label>
+            </div>
+        </li>
+        <li>
+        	<div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck13">
+              <label class="custom-control-label" for="customCheck13">COOLER</label>
+            </div>
+        </li>
+        <li>
+          <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck20">
+              <label class="custom-control-label" for="customCheck20">Everest</label>
+            </div>
+        </li>
+        <li>
+          <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck21">
+              <label class="custom-control-label" for="customCheck21">Asus</label>
+            </div>
+        </li>
+        
+      </ul>  	
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed cizgi ahover" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          <img src="images/teslim.png" width="30"> Teslim
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" >
+      <div class="card-body">
+      <ul style="list-style-type: none;" class="pl-3">
+      	<li>
+      		<div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck14">
+              <label class="custom-control-label" for="customCheck14">Yurt İçi</label>
+            </div>
+      	</li>
+      	<li>
+      		<div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck15">
+              <label class="custom-control-label" for="customCheck15">Yurt Dışı</label>
+            </div>
+      	</li>
+      </ul>  	
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFive">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed cizgi ahover" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          <img src="images/garanti.png" width="25"> Garanti Süresi
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFive" class="collapse show" aria-labelledby="headingFive" >
+      <div class="card-body">
+      <ul style="list-style-type: none;" class="pl-3">
+      	<li>
+      		<div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck16">
+              <label class="custom-control-label" for="customCheck16">2 Yıl</label>
+            </div>
+      	</li>
+      	<li>
+      		<div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck17">
+              <label class="custom-control-label" for="customCheck17">4 Yıl</label>
+            </div>
+      	</li>
+      </ul>  	
+      </div>
+    </div>
+  </div>
+</div>
+
+		<div class="col-md-8 col-sm-8 col-lg-9 col-xl-9">
+			<div class="row">
+				<div class="col-xl-8 col-lg-8 pt-2">
+          <p class="lead text-center" style="font-size: 26px;">"Mouse" aramasında 12 sonuç bulundu</p>
+        </div>
+        <div class="col-xl-4 col-lg-4 pt-3 " style="padding-left: 28px;">
+          <center>
+<select class="custom-select col-md-6 col-sm-6 col-lg-11 col-xl-11">
+  <option value="0">Önerilen sıralama</option>
+  <option value="1">En düşük fiyat</option>
+  <option value="2">En yüksek fiyat</option>
+  <option value="3">En yeniler</option>
+  <option value="4">En çok satanlar</option>
+  <option value="5">En çok beğenilenler</option>
+  <option value="6">En çok değerlendirilenler</option>
+</select>
+</center>
+        </div>
+			</div>
+            <div class="row">
+			    <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-2">
+			        <div class="card">
+                                 <img src="images/Mouse1.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">Philips Spk7624 Kablosuz Mouse Gaming Mouse 6TUŞ Wireless Mouse.</h6>
+                                        <small><del><font color="#b2b2b2">99TL</font></del> |<font color="#5ba71b"> %12 indirim</font> </small>
+                                        <h5>88TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-2">
+			        <div class="card">
+                                 <img src="images/Mouse2.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">Philips Spk9414 RGB Mouse Gaming Mouse 7 Tuşlu E-Spor Oyuncu Mouse.</h6>
+                                        <small><del><font color="#b2b2b2">169TL</font></del> |<font color="#5ba71b"> %41 indirim</font> </small>
+                                        <h5>99.99TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-2">
+			        <div class="card">
+                        <img src="images/Mouse3.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-text">Bloody T70 LK Optik Multi Core Metal Ayak 4000CPI Oyuncu Mouse.</h6>
+                                    <br>
+                                        <h5>159.99TL</h5>
+                                            <center>
+                                            	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                            </center>                                
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-2">
+			        <div class="card">
+                                 <img src="images/Mouse4.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">Gaming Serisi 5500 Dpi Işıklı Kablolu Oyuncu Mouse PC Laptop Yüksek Hassasiyet</h6>
+                                         <br>
+                                        <h5>34.40TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+            
+            
+            	<div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/Mouse5.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">Dikey Ergonomik Kablosuz Mouse Wireless 2000 DPI 6 Tuş 4 Işıklı.</h6>
+                                        <br>
+                                        <h5>59.90TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/Mouse6.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">LOGITECH G602 GAMING WIRELESS KABLOLU MOUSE 910-003823</h6>
+                                        <small><del><font color="#b2b2b2">599.80TL</font></del> |<font color="#5ba71b"> %50 indirim</font> </small>
+                                        <h5>449.90L</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/Mouse7.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">HP X3000 Kablosuz Mouse 2HW68AA Beyaz-Gümüş Renklerde.<br></h6>
+                                        <small><del><font color="#b2b2b2">156TL</font></del> |<font color="#5ba71b"> %19 indirim</font> </small>
+                                        <h5>99.90TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/Mouse8.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">Rampage SMX-R82 Rapier Usb 3200dpi Makrolu Gaming Mouse.</h6>
+                                        <small><del><font color="#b2b2b2">119TL</font></del> |<font color="#5ba71b"> %33 indirim</font> </small>
+                                        <h5>74.99TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+            
+            
+            	<div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/Mouse9.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">COOLER MASTER MasterMouse MM710 Ultra Hafif 53gr Mat Siyah Optik Prof.</h6>
+                                        <h5>464.50TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/Mouse10.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">EVEREST SMW-777 KABLOSUZ SİYAH 2.4GHZ OPTİK WIRELESS MOUSE</h6>
+                                        <small><del><font color="#b2b2b2">59TL</font></del> |<font color="#5ba71b"> %53 indirim</font> </small>
+                                        <h5>27TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/Mouse11.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">Logitech MX Master 2S Wireless Kablosuz Mouse - <br> Graphite.</h6>
+                                        <small><del><font color="#b2b2b2">1119TL</font></del> |<font color="#5ba71b"> %42 indirim</font> </small>
+                                        <h5>679TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			     <div class="card">
+                                 <img src="images/Mouse12.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">ASUS ROG Strix Evolve Çift El Oyuncu Mouse - 7200 DPI Sensor.</h6>
+                                        <small><del><font color="#b2b2b2">855TL</font></del> |<font color="#5ba71b"> %52 indirim</font> </small>
+                                        <h5>409TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>               
+                
+            </div>
+            <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center mt-4" style="margin-bottom: -15px;">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+        </div>
+    </div>   
+</div>
+
+
+<footer class="page-footer font-small blue bg-dark text-white mt-5">
+
+  <div class="footer-copyright text-center py-3">© 2020 Dursun İnel
+  </div>
+
+</footer>
+
+
+
+
+
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

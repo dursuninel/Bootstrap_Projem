@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="fontawesome/css/all.css" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Bilgisayar/Anakart</title>
+</head>
+<body>
+
+<nav class="text-white navbar navbar-dark navbar-expand-lg bg-dark">
+<div class="container py-1">
+	<img class="navbar-brand" src="images/logo2.png" width="55">
+
+	<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+
+	<div class="collapse navbar-collapse" id="navbar-menu"> 
+		
+<ul class="navbar-nav ml-auto">
+	<li class="nav-item px-1">
+		<a href="index.html" class="nav-link text-white">Anasayfa</a>
+	</li>
+	<li class="nav-item px-1">
+		<div class="dropdown">
+			<a href="#" class="nav-link text-white dropdown-toggle" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kategori</a>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenu">
+    <a class="dropdown-item" href="Monitor.html">Bilgisayar</a>
+    <a class="dropdown-item" href="#">Beyaz Eşya</a>
+    <a class="dropdown-item" href="#">Fitness</a>
+  </div>
+		</div>
+	</li>
+	<li class="nav-item px-1">
+		<a href="hakkımda.html" class="nav-link text-white">Hakkımızda</a>
+	</li>
+	<li class="nav-item pl-1">
+		<a href="#" class="nav-link text-white">İletişim</a>
+	</li>
+</ul>
+<div class="input-group"> 
+<ul class="navbar-nav" style="margin-left: 150px;">
+			<li>
+				<input type="text" class="form-control" size="60" placeholder="Ne Aramıştınız ?" name="">					
+			</li>
+			<li>
+				<button class="btn btn-outline-secondary ml-3" type="button">Ara</button>
+			</li>
+		</ul>
+</div>
+
+	</div>
+</div>
+</nav>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4 col-sm-4 col-lg-3 col-xl-3 mt-2">
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link cizgi ahover" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+           <img src="images/parca.png" width="30"> Ürünler
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" >
+      <div class="card-body">
+        <ul >
+        	<li><label><a href="Monitor.html" class="cizgi ahover"> Monitör </label></li>
+        	<li><label><a href="kasa.html" class="cizgi ahover">Kasa </a></label></li>
+        	<li><label><a href="klavye.html" class="cizgi ahover"> Klavye </a></label></li>
+        	<li><label><a href="mouse.html" class="cizgi ahover"> Mouse </a></label></li>
+        	<li><label><a href="islemci.html" class="cizgi ahover"> İşlemci </a></label></li>
+        	<li><label style="color: #dddddd;"> Anakart </label></li>
+        	<li><label><a href="" class="cizgi ahover"> RAM </a></label></li>
+        	<li><label><a href="" class="cizgi ahover"> Ekran Kartı </a></label></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed cizgi ahover" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <img src="images/fiyat.png" width="25"> Fiyat
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" >
+      <div class="card-body" s>
+      	<ul style="list-style-type: none;" class="pl-1">
+      		<li><input type="text" size="3" name="" placeholder="En Düşük"> - <input type="text" size="3" name="" placeholder="En Yüksek"> <button class="bg-primary" style="color: white;"> > </button></li>
+      	</ul>
+        <ul style="list-style-type: none;" class="pl-1">
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">100-250</label>
+                 </div>
+        	</li>
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                    <label class="custom-control-label" for="customCheck2">250-500</label>
+                 </div>
+        	</li>
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                    <label class="custom-control-label" for="customCheck3">500-1000</label>
+                 </div>
+        	</li>
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                    <label class="custom-control-label" for="customCheck4">1000-2000</label>
+                 </div>
+        	</li>
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck5">
+                    <label class="custom-control-label" for="customCheck5">2000-4000</label>
+                 </div>
+        	</li>
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck6">
+                    <label class="custom-control-label" for="customCheck6">4000-6000</label>
+                 </div>
+        	</li>
+        	<li>
+        		 <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck7">
+                    <label class="custom-control-label" for="customCheck7">6000 +</label>
+                 </div>
+        	</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed cizgi ahover" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <img src="images/brand.png" width="30"> Marka
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" >
+      <div class="card-body">
+      <ul style="list-style-type: none;" class="pl-3">
+      	<li>
+      		<div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck9">
+              <label class="custom-control-label" for="customCheck9">MSI</label>
+            </div>
+      	</li>
+        <li><div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck10">
+              <label class="custom-control-label" for="customCheck10">Gıgabyte</label>
+            </div>
+        </li>        
+        <li><div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck11">
+              <label class="custom-control-label" for="customCheck11">Asus</label>
+            </div>
+        </li>        
+      </ul>  	
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed cizgi ahover" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          <img src="images/teslim.png" width="30"> Teslim
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" >
+      <div class="card-body">
+      <ul style="list-style-type: none;" class="pl-3">
+      	<li>
+      		<div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck14">
+              <label class="custom-control-label" for="customCheck14">Yurt İçi</label>
+            </div>
+      	</li>
+      	<li>
+      		<div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck15">
+              <label class="custom-control-label" for="customCheck15">Yurt Dışı</label>
+            </div>
+      	</li>
+      </ul>  	
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFive">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed cizgi ahover" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          <img src="images/garanti.png" width="25"> Garanti Süresi
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFive" class="collapse show" aria-labelledby="headingFive" >
+      <div class="card-body">
+      <ul style="list-style-type: none;" class="pl-3">
+      	<li>
+      		<div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck16">
+              <label class="custom-control-label" for="customCheck16">2 Yıl</label>
+            </div>
+      	</li>
+      	<li>
+      		<div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck17">
+              <label class="custom-control-label" for="customCheck17">4 Yıl</label>
+            </div>
+      	</li>
+      </ul>  	
+      </div>
+    </div>
+  </div>
+</div>
+
+		<div class="col-md-8 col-sm-8 col-lg-9 col-xl-9">
+			<div class="row">
+				<div class="col-xl-8 col-lg-8 pt-2">
+          <p class="lead text-center" style="font-size: 26px;">"Anakart" aramasında 12 sonuç bulundu</p>
+        </div>
+        <div class="col-xl-4 col-lg-4 pt-3 " style="padding-left: 28px;">
+          <center>
+<select class="custom-select col-md-6 col-sm-6 col-lg-11 col-xl-11">
+  <option value="0">Önerilen sıralama</option>
+  <option value="1">En düşük fiyat</option>
+  <option value="2">En yüksek fiyat</option>
+  <option value="3">En yeniler</option>
+  <option value="4">En çok satanlar</option>
+  <option value="5">En çok beğenilenler</option>
+  <option value="6">En çok değerlendirilenler</option>
+</select>
+</center>
+        </div>
+			</div>
+            <div class="row">
+			    <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-2">
+			        <div class="card">
+                                 <img src="images/anakart1.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">GIGABYTE B365M-DS3H Intel B365 Soket LGA1151 DDR4 HDMI DVI VGA Anakart.</h6>
+                                        <br>
+                                        <small><del><font color="#b2b2b2">1.009TL</font></del> |<font color="#5ba71b"> %28 indirim</font> </small>
+                                        <h5>729TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-2">
+			        <div class="card">
+                                 <img src="images/anakart2.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">H310M-S2H Intel H310 Soket LGA1151 DDR4 2666 MHz HDMI DVI VGA <br> Anakart.</h6>
+                                        <br>
+                                        <h5>549TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-2">
+			        <div class="card">
+                        <img src="images/anakart3.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h6 class="card-text">MSI MPG X570 GAMING EDGE WIFI AMD X570 4400MHz (OC) DDR4 AM4 RGB ATX Anakart.</h6>
+                                      <small><del><font color="#b2b2b2">1.979TL</font></del> |<font color="#5ba71b"> %6 indirim</font> </small>
+                                        <h5>1.879TL</h5>
+                                            <center>
+                                            	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                            </center>                                
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-2">
+			        <div class="card">
+                                 <img src="images/anakart4.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">GIGABYTE H310M DS2 2.0 2666MHz(OC) DDR4 Soket 1151 VGA  <br>Anakart.</h6>
+                                        <small><del><font color="#b2b2b2">529TL</font></del> |<font color="#5ba71b"> %14 indirim</font> </small>
+                                        <h5>455TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+            
+            
+            	<div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/anakart5.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">GIGABYTE GA-AB350M-D3V AMD B350 2667MHZ DDR4 SOKET AM4 ANAKART.</h6>
+                                        <br>
+                                        <h5>454TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/anakart6.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">ASUS PRIME B360M-D INTEL B360 DDR4 2666MHZ SOKET ANAKART.</h6>
+                                        <br>
+                                        <h5>769TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/anakart7.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">MSI B365M PRO-VDH Intel B365 2666MHz DDR4 Socket 1151 mATX Anakart.</h6>
+                                       <small><del><font color="#b2b2b2">759TL</font></del> |<font color="#5ba71b"> %6 indirim</font> </small>
+                                        <h5>719TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/anakart8.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">Asus H81M-K Intel H81 1600MHz DDR3 Soket 1150 Micro-ATX Anakart.</h6>
+                                        <br>
+                                        <h5>449TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+            
+            
+            	<div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/anakart9.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">MSI H310-A PRO SOKET 1151 DDR4 2666 DVI VGA USB3.1 ATX ANAKART.</h6>
+                                        <br>
+                                        <h5>498TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/anakart10.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">MSI X570-A PRO AM4 DDR4 4400 mhz(Oc)2xM.2 USB 3.2 HDMI ATX ANAKART.</h6>
+                                        <small><del><font color="#b2b2b2">1.723TL</font></del> |<font color="#5ba71b"> %24 indirim</font> </small>
+                                        <h5>1.326TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			        <div class="card">
+                                 <img src="images/anakart11.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">ASUS prime z370-p anakart asus z37-p bord laga 1151 pin bord 8. ve 9. nesil destekli.</h6>
+                                        <br>
+                                        <h5>1.050TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 mt-3">
+			     <div class="card">
+                                 <img src="images/anakart12.jpg" class="card-img-top" alt="...">
+                                 <div class="card-body">
+                                   
+                                        <h6 class="card-text">MSI H310M PRO-VDH PLUS 1151 DDR4 2666 DVI VGA HDMI USB3.1 ANAKART.</h6>
+                                        <br>
+                                        <h5>479TL</h5>
+                                        <center>
+                                        	<a href="#" class="btn btn-primary">Detaylara Git</a>
+                                        </center>
+                                        
+                                 </div>
+                               </div>
+                </div>               
+                
+            </div>
+            <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center mt-4" style="margin-bottom: -15px;">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+        </div>
+    </div>   
+</div>
+
+
+<footer class="page-footer font-small blue bg-dark text-white mt-5">
+
+  <div class="footer-copyright text-center py-3">© 2020 Dursun İnel
+  </div>
+
+</footer>
+
+
+
+
+
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
