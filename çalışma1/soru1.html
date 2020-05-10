@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id ='metin'>Javascript DOM</p>  
+    <div> 
+        <button id="btn" onclick="tikla()">Stil Ver</button> 
+    </div> 
+    <script>
+
+        var btn = document.querySelector("#btn"); // id ile butona eriştim.
+
+        var mtn = document.querySelector("#metin"); // id ile paragrafa eriştim.
+
+        btn.onclick=(function tikla(){ // Butona tıklayınca...
+            mtn.style.fontFamily="fantasy"; // yazı stilini değiştir.
+            mtn.style.color="red"; // yazı rengini değiştir.
+        })
+    </script>
+</body>
+</html>

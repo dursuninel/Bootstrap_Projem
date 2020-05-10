@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html><head> 
+<meta charset=utf-8 /> 
+</head> 
+<body> 
+<p>
+    <a id="baglanti" type="text/html" hreflang="tr-TR" target="_self" href="https://www.google.com/">Google</a>
+</p> 
+ <button onclick="ozelliklerial()">ÖZellikleri Al</button> 
+
+ <script>
+     var body = document.body; // Document'deki body elementine eriştim.
+     var btn_child = body.children[1]; // Body elementinin 1 index'li coçuğunu aldım.
+     var a = document.querySelector("#baglanti"); // id ile a etiketine eriştim.
+    
+     btn_child.onclick=function ozelliklerial() // butona tıklayınca...
+     {
+         a.type ="text.css"; // type'ı değiştir.
+         a.hreflang = "en"; // hreflang'ı değiştir.
+         a.target = "_blank"; // target'ı değiştir.
+         a.href = "https://www.facebook.com/"; // href'i değiştir.
+         a.textContent = "Facebook"; // yazıyı değiştir.
+         console.log(a); // Console ekranında a'yı göster.
+     }
+
+     
+ </script>
+</body>
+</html> 
