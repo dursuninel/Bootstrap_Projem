@@ -1,0 +1,76 @@
+.bg-yellow{
+	background-color: #f7bb4a !important;
+}
+.boyut{			
+    height: 480px;
+}
+.cizgi{
+	text-decoration: none;
+	color: black;
+}
+.ahover:hover{
+color: #333333;
+}
+::placeholder {
+	font-size: 11px;
+	text-align: center;
+}
+.Disabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.stil
+{
+	font-family: Bahnschrift Light Condensed;
+}
+
+@media only screen and (min-width: 1200px)
+{
+  .uza
+  {
+   margin-left: 365px; 
+  }
+  .uza1
+  {
+  	margin-left: 380px;
+  }
+  .imguza
+  {
+  	height: 400px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+	.uza
+	{
+		margin-left: 300px;
+	}
+	.uza1
+	{
+		margin-left: 330px;
+	}
+	.imguza
+	{
+		height: 350px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+	.uza
+	{
+		margin-left: 200px;
+	}
+	.uza1
+	{
+		margin-left: 234px;
+	}
+	.imguza
+	{
+		height: 370px;
+		width: 185px;
+	}
+}
+
+
