@@ -13,7 +13,6 @@ function azalt() {
    if (deger!=1) // alınacak ürün miktarının 1 den az olmamasını sağlıyorum.
    document.getElementById('sayi').value = deger - 1;
 }
-console.log(window.scrollTo);
 
 btn1.onclick=function(){
     this.style.background="#0069d9";
@@ -99,10 +98,11 @@ var yorum;
 let resimler = ["../images/kul1.png","../images/kul2.png","../images/kul3.png","../images/kul4.png","../images/kul6.png","../images/kul7.jpg","../images/kul8.png","../images/kul9.png","../images/kul10.png"]
 var rastgele;
 var resim;
-
+var yorum_sayisi= document.querySelector("#yorum_sayisi");
+console.log(document.querySelectorAll(".yor").length+1);
+yorum_sayisi.appendChild(document.createTextNode("( "+ document.querySelectorAll(".yor").length +" )"));
 gonder.onclick=function()
 {
-    
     ad = document.querySelector("#ad").value;
     soyad = document.querySelector("#soyad").value;
     yorum = document.querySelector("#yorum").value;
@@ -117,7 +117,7 @@ gonder.onclick=function()
     let yorum1 = document.createTextNode(yorum);
     let ayrac = document.createElement("hr");
 
-    newyorum.className="media mt-2";
+    newyorum.className="media mt-2 yor";
     rastgele =  Math.floor(Math.random() * resimler.length);
     resim = resimler[rastgele];
     img.src = resim;
@@ -135,4 +135,6 @@ gonder.onclick=function()
     yeni.insertBefore(ayrac,yeni.childNodes[0]);
     yeni.insertBefore(newyorum,yeni.childNodes[0]);   
 
+    yorum_sayisi.textContent="";
+    yorum_sayisi.appendChild(document.createTextNode("( "+ document.querySelectorAll(".yor").length +" )"));
 }
